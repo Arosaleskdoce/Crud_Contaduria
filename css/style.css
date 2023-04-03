@@ -12,21 +12,21 @@ ya que una vez necesite modificar algo o mejorar me ubico mas rapido **/
 
 
 }
-/* Globales **/
+
 html {
     font-size: 62.5%;
     box-sizing: border-box; /*Hack para box models**/
     scroll-snap-type: y mandatory;
 }
-
-*,
-*:before,
-*:after {
+/* SNI para toda pagina web que realizo sacado de, 
+https: //paulirish.com/2012/box-sizing-border-box-ftw/ */
+*,*:before,*:after {
     box-sizing: inherit;
 }
+/* Globales **/
 
 body { /*1rem = 18px**/
-    font-size: 16px;
+    font-size: 1.6rem;
     font-family: 'Krub', sans-serif;
     background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100%);
 }
